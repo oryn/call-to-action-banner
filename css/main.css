@@ -1,0 +1,87 @@
+
+html {
+	box-sizing: border-box;
+  font-family: "Roboto", sans-serif;s
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  display: inline-block;
+  line-height: 1.4;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1.3rem 1.3rem 0 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-height: 500px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  max-width: 650px;
+  padding: 20px 20px 0 20px;
+}
+
+.circle-wrap {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  padding: 1rem;
+}
+
+.text {
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.btn {
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 8px;
+  padding-top: .35em;
+  padding-bottom: .35em;
+  padding-left: .75em;
+  padding-right: .75em;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: solid #000;
+}
+
+.circle {
+  width: 100%;
+}
